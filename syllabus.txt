@@ -1,0 +1,178 @@
+🟢 PHASE 1 — PYTHON FUNDAMENTALS (Week 1–2)
+🎯 Goal
+
+You should reach this level:
+
+“I can write small programs from scratch without copying.”
+
+		1️⃣ Python Setup + Execution
+Concepts
+What is Python
+Interpreter vs Compiler
+Installing Python
+Running code:
+Terminal
+Script file (.py)
+Basic IDE usage (VS Code recommended)
+You must be able to:
+Run a Python file from terminal
+Print output
+print("Hello World")
+
+		2️⃣ Variables & Data Types
+Concepts
+Variables (dynamic typing)
+Naming rules
+Built-in types:
+int
+float
+str
+bool
+Example
+x = 10
+name = "Nagu"
+pi = 3.14
+is_active = True
+Deep understanding:
+Python is dynamically typed (no type declaration)
+Type checking:
+type(x)
+Practice:
+Store user name and age
+Print formatted output
+
+		3️⃣ Input / Output
+Concepts
+input() function
+Type casting
+age = int(input("Enter age: "))
+Mistake to avoid:
+Input is always string → must convert
+
+
+		4️⃣ Operators
+Types:
+Arithmetic: + - * / // % **
+Comparison: == != > <
+Logical: and or not
+Example:
+a = 10
+b = 3
+print(a // b)  # floor division
+Practice:
+Simple calculator
+
+
+		5️⃣ Conditional Statements
+Concepts:
+if
+elif
+else
+Nested conditions
+Example:
+if age > 18:
+    print("Adult")
+else:
+    print("Minor")
+Thinking skill:
+Convert real-life decisions → code logic
+Practice:
+Even/odd checker
+Grade system
+
+
+		6️⃣ Loops (VERY IMPORTANT)
+Concepts:
+for loop
+while loop
+break, continue
+Example:
+for i in range(5):
+    print(i)
+Deep understanding:
+Loop = repetition logic
+range(start, stop, step)
+Practice:
+Print numbers 1–100
+Multiplication table
+Sum of numbers
+
+
+		7️⃣ Strings
+Concepts:
+String indexing
+Slicing
+String methods:
+.lower(), .upper()
+.strip()
+.replace()
+Example:
+name = "Python"
+print(name[0])     # P
+print(name[1:4])   # yth
+Practice:
+Reverse a string
+Check palindrome
+
+		8️⃣ Lists (Core Data Structure)
+Concepts:
+Ordered, mutable
+Indexing
+Methods:
+.append()
+.remove()
+.pop()
+Example:
+nums = [1, 2, 3]
+nums.append(4)
+Practice:
+Find max in list
+Remove duplicates
+
+		9️⃣ Tuples, Sets, Dictionaries
+Tuples:
+Immutable
+t = (1, 2, 3)
+Sets:
+Unique values
+s = {1, 2, 2, 3}  # {1, 2, 3}
+Dictionaries:
+Key-value pairs
+student = {"name": "Nagu", "age": 20}
+Practice:
+Store student details
+Count frequency of elements
+
+		🔟 Functions (CRITICAL)
+Concepts:
+Function definition
+Parameters & return
+def add(a, b):
+    return a + b
+Why important:
+Code reuse
+Structure thinking
+Practice:
+Calculator using functions
+Prime check function
+
+
+	🧠 Phase 1 Thinking Skills
+
+You must learn to:
+
+Break problem → steps → code
+Trace code manually
+Predict output before running
+
+
+	📌 Minimum Practice Checklist
+
+You should complete AT LEAST:
+
+20+ small programs:
+Calculator
+Palindrome
+Prime number
+Factorial
+Guessing game
