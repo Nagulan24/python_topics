@@ -43,3 +43,14 @@ if withdraw > 0:
       print("enter amoumt mutiple of 100")
 else:  
    print("enter a valid amount")
+
+#Visitor Counter System
+
+count =0 
+def vistor():
+   global count
+   count += 1
+   print("visitor count:",count)
+vistor()
+vistor()
+vistor()
